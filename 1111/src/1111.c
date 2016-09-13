@@ -64,11 +64,11 @@ int main() {
 			}
 			break;
 	case'c':
-			printf("Please input 2 numbers to detect the bigger one.\n");
+			printf("Please input 2 numbers to detect the smaller one.\n");
 			fflush(stdout);
 			scanf("%d %d", &a, &b);
-			z=(a>b) ? a:b;
-			printf("The maximum number among two input numbers is: %d.\n", z);
+			z=(a<b) ? a:b;
+			printf("The minimum number among two input numbers is: %d.\n", z);
 			fflush(stdout);
 			break;
 	case'd':
