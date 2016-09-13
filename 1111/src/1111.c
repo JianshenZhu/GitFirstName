@@ -84,6 +84,7 @@ int main() {
 		exit(0);
 
 	default:
+		printf(“this is a test comment\n”);
 		break;
 
 
